@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns=" http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+	<link href='http://fonts.googleapis.com/css?family=Scheherazade' rel='stylesheet' type='text/css'>
+	<style>
+		#main {
+			font-family: 'Scheherazade', serif;
+			font-size: 150%;
+		}
+		table {
+			position: relative;
+			padding-left: 7ex;
+		}
+		input {
+			box-shadow: 1px 1px 5px #888888;
+		}
+	</style>
+	<title>Login</title>
+</head>
+<body>
+<div id="wrap">
+	<div id="header">Mein Blog</div>
+		<form action="login.php" method="post">			
+			<div id="main">
+				<h3>Login</h3>
+				<table>
+					<tr>
+						<td>Username :</td>
+						<td><input type="text" name="username"/></td>
+					</tr>
+					<tr>
+						<td>Password :</td>
+						<td><input type="password" name="password" /></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="submit" value="Login"/></td>
+					</tr>
+				</table>
+			</div>
+		</form>
+		<div id="sidebar">
+			<ul>
+				<li><a href="http://webprojects.eecs.qmul.ac.uk/js317/Blog/viewBlog.php">Home</a></li>
+				<li><a href="http://webprojects.eecs.qmul.ac.uk/js317/Blog/login.html">Add entry</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>	

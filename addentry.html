@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns=" http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+	<link href='http://fonts.googleapis.com/css?family=Scheherazade' rel='stylesheet' type='text/css'>
+	<style>
+		textarea {
+			resize: none;
+			width: 70ex;
+			height: 50ex;
+			background: rgba(255, 255, 255, 0.8);
+			box-shadow: 1px 1px 5px #888888;
+			padding: 5px;
+		}
+		input {
+			box-shadow: 1px 1px 5px #888888;
+		}
+		td {
+			min-width: 8ex;
+		}
+		#main {
+			font-family: 'Scheherazade', serif;
+			font-size: 150%;
+		}
+	</style>
+	<title>Add Entry</title>
+</head>
+<body>
+	<div id="wrap">
+		<form action="addentry.php" method="get">
+			<div id="header">Mein Blog</div>
+			<div id="main">
+				<h3>Add an entry to the blog</h3>
+				<table>
+					<tr>
+						<td>Title :</td>
+						<td><input type="text" style="width:67ex" name="title" id="title" /></td>
+					</tr>
+					<tr>
+						<td>Body :</td>
+						<td><textarea name="body"></textarea></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="submit" value="Add entry"/> <input type="reset" onclick="return confirm('Clear all fields?')" value="Clear"/></td>
+					</tr>
+				</table>
+			</div>
+		</form>	
+		<div id="sidebar">
+			<ul>
+				<li><a href="http://webprojects.eecs.qmul.ac.uk/js317/Blog/viewBlog.php">Home</a></li>
+				<li><a href="http://webprojects.eecs.qmul.ac.uk/js317/Blog/login.html">Add entry</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

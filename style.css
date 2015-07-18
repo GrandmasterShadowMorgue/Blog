@@ -1,0 +1,74 @@
+body, html {
+	margin:0;
+	padding:0;
+	color:#000;
+	background-image: url("Images/background.png");
+	background-size: cover;
+}
+#wrap {
+	width:750px;
+	margin:0 auto;
+	background: rgba(255, 255, 255, 0.6);
+	overflow: hidden;
+}
+#header {
+	padding-left: 30%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-style: oblique;
+	font-family: 'Tangerine';
+	font-size: 500%;
+	text-shadow: 4px 4px 4px #888888;
+	background-image: url("Images/piano keys.png");
+	background-size: 100% 100%;
+}
+h1 {
+	margin:0;
+}
+#nav {
+	padding:5px 10px;
+	background:#c99;
+
+}
+#nav ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#main {
+	float:left;
+	width:580px;
+	padding:10px;
+	background:rgba(255, 255, 255, 0.6);
+}
+h2 {
+	margin:0 0 1em;
+}
+#sidebar {
+	float:right;
+	width:130px;
+	padding:10px;
+	font-size: 130%;
+	font-family: 'Scheherazade', serif;
+	background:rgba(255, 255, 255, 0.6);
+}
+
+h3 {
+	margin:0 0 1em;
+	position: relative;
+	padding-left: 2em;
+	font-family: 'Tangerine';
+	font-size: 200%;
+}
+#footer {
+	clear:both;
+	padding:5px 10px;
+	background:rgba(255, 255, 255, 0.6);
+}
+#footer p {
+	margin:0;
+}
+* html #footer {
+	height:1px;
+	background:rgba(255, 255, 255, 0.6);
+}
